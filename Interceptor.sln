@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary", "MyLibrary\MyLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interceptors", "Interceptors\Interceptors.csproj", "{0158377A-8CE6-41D0-9728-51A281DBFFB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterceptorApp", "InterceptorApp\InterceptorApp.csproj", "{DA3CFA36-EB85-41FC-9429-03F45B3B8544}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0158377A-8CE6-41D0-9728-51A281DBFFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0158377A-8CE6-41D0-9728-51A281DBFFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0158377A-8CE6-41D0-9728-51A281DBFFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3CFA36-EB85-41FC-9429-03F45B3B8544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3CFA36-EB85-41FC-9429-03F45B3B8544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3CFA36-EB85-41FC-9429-03F45B3B8544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3CFA36-EB85-41FC-9429-03F45B3B8544}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -4,9 +4,9 @@ using System.IO;
 
 public class Subject : ISubject
 {
-    private readonly StreamWriter _writer;
+    private readonly TextWriter _writer;
 
-    public Subject(StreamWriter writer)
+    public Subject(TextWriter writer)
     {
         _writer = writer;
     }

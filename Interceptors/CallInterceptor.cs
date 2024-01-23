@@ -5,9 +5,9 @@ using Castle.DynamicProxy;
 
 public class CallInterceptor : IInterceptor
 {
-    private readonly StreamWriter _writer;
+    private readonly TextWriter _writer;
 
-    public CallInterceptor(StreamWriter writer)
+    public CallInterceptor(TextWriter writer)
     {
         _writer = writer;
     }
