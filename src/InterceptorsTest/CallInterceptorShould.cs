@@ -16,7 +16,9 @@ public class CallInterceptorShould
         var container = BuildContainer(stringWriter);
         var subject = container.Resolve<ISubject>();
         subject.DoNothing();
-        Assert.Equal("Called Subject.DoNothing\r\nNothing is done\r\n", stringWriter.ToString());
+        var expected = $"Called Subject.DoNothing{Environment.NewLine}Nothing is done{Environment.NewLine}";
+        var actual = stringWriter.ToString();
+        Assert.Equal(expected, actual);
     }
 
     private static IContainer BuildContainer(TextWriter writer)
